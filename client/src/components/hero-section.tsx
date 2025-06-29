@@ -25,7 +25,7 @@ export default function HeroSection() {
               <img 
                 src="/api/profile-photo" 
                 alt="Chetan Chaudhari - Professional Profile" 
-                className="w-64 h-64 lg:w-72 lg:h-72 rounded-full mx-auto object-cover shadow-2xl border-4 border-white/20 transition-all duration-300 group-hover:scale-105 group-hover:shadow-3xl"
+                className="w-56 h-56 lg:w-64 lg:h-64 rounded-full mx-auto object-cover shadow-2xl border-4 border-white/20 transition-all duration-300 group-hover:scale-105 group-hover:shadow-3xl"
               />
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-accent-teal/20 to-blue-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -47,21 +47,21 @@ export default function HeroSection() {
             </p>
             
             {/* Quick highlights for recruiters */}
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center min-h-[80px] flex flex-col justify-center">
-                <div className="text-lg font-bold text-accent-teal">GenAI</div>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-8">
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg px-3 py-4 text-center min-h-[80px] flex flex-col justify-center">
+                <div className="text-lg font-bold text-accent-teal whitespace-nowrap">GenAI</div>
                 <div className="text-sm text-white/70">Expert</div>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center min-h-[80px] flex flex-col justify-center">
-                <div className="text-lg font-bold text-accent-teal">Spring Boot</div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg px-3 py-4 text-center min-h-[80px] flex flex-col justify-center">
+                <div className="text-lg font-bold text-accent-teal whitespace-nowrap">Spring Boot</div>
                 <div className="text-sm text-white/70">Backend</div>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center min-h-[80px] flex flex-col justify-center">
-                <div className="text-lg font-bold text-accent-teal">Azure AI</div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg px-3 py-4 text-center min-h-[80px] flex flex-col justify-center">
+                <div className="text-lg font-bold text-accent-teal whitespace-nowrap">Azure AI</div>
                 <div className="text-sm text-white/70">Certified</div>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center min-h-[80px] flex flex-col justify-center">
-                <div className="text-lg font-bold text-accent-teal">1+ YRS</div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg px-3 py-4 text-center min-h-[80px] flex flex-col justify-center">
+                <div className="text-lg font-bold text-accent-teal whitespace-nowrap">1+ YRS</div>
                 <div className="text-sm text-white/70">Experience</div>
               </div>
             </div>
