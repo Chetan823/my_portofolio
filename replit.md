@@ -98,11 +98,13 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
-- June 29, 2025: Fixed timeline visibility issues in experience section by changing border colors from white to gray-100
-- June 29, 2025: Added Django alongside Spring Boot in hero section backend skills highlight
-- June 29, 2025: Reduced padding in education section to minimize gap below certifications
+- June 29, 2025: Increased size of hero section skill highlight buttons (GenAI, Spring Boot, etc.) for better visibility
+- June 29, 2025: Enhanced mobile responsiveness across all components with improved breakpoints
+- June 29, 2025: Added functional mobile navigation menu with hamburger toggle
+- June 29, 2025: Made CTA section visually distinct with light background (different from contact section)
+- June 29, 2025: Enhanced hero section with interactive profile photo and hover effects
+- June 29, 2025: Fixed timeline visibility and made all technical skills sections consistent
 - June 29, 2025: Updated all AI/ML references to GenAI throughout the portfolio for consistent branding
-- June 29, 2025: Enhanced recruiter-focused elements with interactive skills section and call-to-action section
 
 ## Changelog
 

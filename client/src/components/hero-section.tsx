@@ -48,21 +48,21 @@ export default function HeroSection() {
             
             {/* Quick highlights for recruiters */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 text-center">
-                <div className="text-lg font-bold text-accent-teal">GenAI</div>
-                <div className="text-xs text-white/70">Expert</div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
+                <div className="text-xl font-bold text-accent-teal">GenAI</div>
+                <div className="text-sm text-white/70">Expert</div>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 text-center">
-                <div className="text-lg font-bold text-accent-teal">Spring Boot</div>
-                <div className="text-xs text-white/70">Backend</div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
+                <div className="text-xl font-bold text-accent-teal">Spring Boot</div>
+                <div className="text-sm text-white/70">Backend</div>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 text-center">
-                <div className="text-lg font-bold text-accent-teal">Azure AI</div>
-                <div className="text-xs text-white/70">Certified</div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
+                <div className="text-xl font-bold text-accent-teal">Azure AI</div>
+                <div className="text-sm text-white/70">Certified</div>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 text-center">
-                <div className="text-lg font-bold text-accent-teal">1+ YRS</div>
-                <div className="text-xs text-white/70">Experience</div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
+                <div className="text-xl font-bold text-accent-teal">1+ YRS</div>
+                <div className="text-sm text-white/70">Experience</div>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
