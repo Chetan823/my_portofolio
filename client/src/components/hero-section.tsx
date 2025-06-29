@@ -53,7 +53,7 @@ export default function HeroSection() {
                 <div className="text-sm text-white/70">Expert</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                <div className="text-xl font-bold text-accent-teal">Spring Boot</div>
+                <div className="text-xl font-bold text-accent-teal">Spring<br/>Boot</div>
                 <div className="text-sm text-white/70">Backend</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
