@@ -48,7 +48,7 @@ export default function HeroSection() {
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 text-center">
                 <div className="text-lg font-bold text-accent-teal">Spring Boot</div>
-                <div className="text-xs text-white/70">& Django</div>
+                <div className="text-xs text-white/70">Backend</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 text-center">
                 <div className="text-lg font-bold text-accent-teal">Azure AI</div>

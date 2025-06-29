@@ -25,7 +25,7 @@ export default function ExperienceSection() {
                       <span className="text-sm text-gray-500">Current Role</span>
                     </div>
                   </div>
-                  <span className="text-sm font-bold text-white bg-gradient-to-r from-accent-teal to-blue-500 px-4 py-2 rounded-full shadow-md">Aug 2024 - Present</span>
+                  <span className="text-sm font-bold text-navy bg-gradient-to-r from-accent-teal/20 to-blue-500/20 px-4 py-2 rounded-full shadow-md border border-accent-teal">Aug 2024 - Present</span>
                 </div>
                 
                 <div className="mb-6 p-4 bg-accent-teal/5 rounded-lg border-l-4 border-accent-teal">
@@ -109,7 +109,7 @@ export default function ExperienceSection() {
                       <span className="text-sm text-gray-500">Foundation Role</span>
                     </div>
                   </div>
-                  <span className="text-sm font-bold text-white bg-gradient-to-r from-accent-orange to-red-500 px-3 py-2 rounded-full shadow-md">Jan 2024 - Jun 2024</span>
+                  <span className="text-sm font-bold text-navy bg-gradient-to-r from-accent-orange/20 to-red-500/20 px-3 py-2 rounded-full shadow-md border border-accent-orange">Jan 2024 - Jun 2024</span>
                 </div>
                 
                 <div className="space-y-3 mb-4">

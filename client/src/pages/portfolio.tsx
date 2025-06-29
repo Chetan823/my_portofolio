@@ -47,16 +47,7 @@ export default function Portfolio() {
             </div>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button 
-              onClick={() => {
-                const element = document.getElementById("contact");
-                if (element) element.scrollIntoView({ behavior: "smooth" });
-              }}
-              className="bg-white text-accent-teal px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-200 transform hover:scale-105"
-            >
-              <i className="fas fa-envelope mr-2"></i>Let's Connect
-            </button>
+          <div className="flex justify-center">
             <button 
               onClick={() => {
                 const link = document.createElement('a');
@@ -64,7 +55,7 @@ export default function Portfolio() {
                 link.download = 'Chetan_Chaudhari_Resume.pdf';
                 link.click();
               }}
-              className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-accent-teal transition-all duration-200"
+              className="bg-white text-accent-teal px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-200 transform hover:scale-105"
             >
               <i className="fas fa-download mr-2"></i>Download Resume
             </button>
