@@ -22,6 +22,17 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Profile photo endpoint
+  app.get("/api/profile-photo", (req, res) => {
+    const photoPath = path.join(process.cwd(), "attached_assets", "WhatsApp Image 2025-06-30 at 00.39.12_1751225316222.jpeg");
+    
+    if (fs.existsSync(photoPath)) {
+      res.sendFile(photoPath);
+    } else {
+      res.status(404).json({ error: "Profile photo not found" });
+    }
+  });
+
   const httpServer = createServer(app);
 
   return httpServer;

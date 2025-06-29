@@ -28,6 +28,28 @@ export default function AboutSection() {
                 <div className="text-gray-600">Major Projects</div>
               </div>
             </div>
+            
+            {/* Achievements */}
+            <div className="mt-8 p-6 bg-gradient-to-r from-accent-teal/5 to-blue-50 rounded-xl border-l-4 border-accent-teal">
+              <h3 className="text-lg font-bold text-navy mb-4 flex items-center">
+                <i className="fas fa-trophy text-accent-teal mr-2"></i>
+                Recent Achievements
+              </h3>
+              <div className="space-y-3">
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-accent-teal rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-gray-700">
+                    <strong>Best Achiever Bravo Award</strong> - Recognized for outstanding performance as best performer in team at Tech Mahindra
+                  </p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 bg-accent-teal rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-gray-700">
+                    <strong>Best Outgoing Student</strong> - Honored for academic excellence and exceptional extracurricular participation in final year of degree
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="space-y-6">
             <div className="flex items-center space-x-4">

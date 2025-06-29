@@ -22,7 +22,7 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800" 
+              src="/api/profile-photo" 
               alt="Chetan Chaudhari - Professional Profile" 
               className="w-80 h-80 rounded-full mx-auto object-cover shadow-2xl border-4 border-white/20"
             />
@@ -47,8 +47,7 @@ export default function HeroSection() {
                 Get In Touch
               </Button>
               <Button 
-                variant="outline"
-                className="border-2 border-white/30 hover:bg-white/10 text-white px-8 py-3 font-semibold transition-all duration-200"
+                className="bg-white/20 hover:bg-white/30 text-white border-2 border-white/30 px-8 py-3 font-semibold transition-all duration-200 backdrop-blur-sm"
                 onClick={downloadResume}
               >
                 <i className="fas fa-download mr-2"></i>Download Resume
