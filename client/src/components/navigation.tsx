@@ -33,42 +33,43 @@ export default function Navigation() {
             <div className="ml-10 flex items-baseline space-x-8">
               <Button
                 variant="ghost"
-                className="text-navy-light hover:text-accent-teal font-medium"
+                className="text-navy-light hover:text-accent-teal font-medium transition-all duration-200 hover:scale-105"
                 onClick={() => scrollToSection("home")}
               >
                 Home
               </Button>
               <Button
                 variant="ghost"
-                className="text-navy-light hover:text-accent-teal font-medium"
+                className="text-navy-light hover:text-accent-teal font-medium transition-all duration-200 hover:scale-105"
                 onClick={() => scrollToSection("about")}
               >
                 About
               </Button>
               <Button
                 variant="ghost"
-                className="text-navy-light hover:text-accent-teal font-medium"
+                className="text-navy-light hover:text-accent-teal font-medium transition-all duration-200 hover:scale-105 relative group"
                 onClick={() => scrollToSection("experience")}
               >
                 Experience
+                <span className="absolute -top-1 -right-1 w-2 h-2 bg-red-500 rounded-full animate-pulse group-hover:bg-accent-teal"></span>
               </Button>
               <Button
                 variant="ghost"
-                className="text-navy-light hover:text-accent-teal font-medium"
+                className="text-navy-light hover:text-accent-teal font-medium transition-all duration-200 hover:scale-105"
                 onClick={() => scrollToSection("projects")}
               >
                 Projects
               </Button>
               <Button
                 variant="ghost"
-                className="text-navy-light hover:text-accent-teal font-medium"
+                className="text-navy-light hover:text-accent-teal font-medium transition-all duration-200 hover:scale-105"
                 onClick={() => scrollToSection("skills")}
               >
                 Skills
               </Button>
               <Button
                 variant="ghost"
-                className="text-navy-light hover:text-accent-teal font-medium"
+                className="text-navy-light hover:text-accent-teal font-medium transition-all duration-200 hover:scale-105"
                 onClick={() => scrollToSection("contact")}
               >
                 Contact

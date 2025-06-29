@@ -34,11 +34,31 @@ export default function HeroSection() {
             <h2 className="text-2xl lg:text-3xl font-medium mb-6 text-white/90">
               GenAI Engineer & Backend Developer
             </h2>
-            <p className="text-lg lg:text-xl text-white/80 mb-8 leading-relaxed">
+            <p className="text-lg lg:text-xl text-white/80 mb-6 leading-relaxed">
               Passionate about building intelligent systems and innovative solutions. Currently architecting 
               cutting-edge AI applications at Tech Mahindra with expertise in LangGraph, Databricks, and 
               enterprise-scale machine learning.
             </p>
+            
+            {/* Quick highlights for recruiters */}
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 text-center">
+                <div className="text-lg font-bold text-accent-teal">GenAI</div>
+                <div className="text-xs text-white/70">Expert</div>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 text-center">
+                <div className="text-lg font-bold text-accent-teal">Spring Boot</div>
+                <div className="text-xs text-white/70">Backend</div>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 text-center">
+                <div className="text-lg font-bold text-accent-teal">Azure AI</div>
+                <div className="text-xs text-white/70">Certified</div>
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 text-center">
+                <div className="text-lg font-bold text-accent-teal">1+ YRS</div>
+                <div className="text-xs text-white/70">Experience</div>
+              </div>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button 
                 className="bg-accent-teal hover:bg-accent-teal/90 text-white px-8 py-3 font-semibold transition-all duration-200 transform hover:scale-105"
