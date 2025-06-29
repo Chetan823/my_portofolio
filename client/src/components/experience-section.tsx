@@ -13,7 +13,7 @@ export default function ExperienceSection() {
           
           {/* Tech Mahindra Experience */}
           <div className="relative flex items-center mb-16">
-            <div className="absolute left-6 md:left-1/2 transform md:-translate-x-1/2 w-6 h-6 bg-gradient-to-r from-accent-teal to-blue-500 rounded-full border-4 border-white shadow-lg animate-pulse z-10"></div>
+            <div className="absolute left-6 md:left-1/2 transform md:-translate-x-1/2 w-6 h-6 bg-gradient-to-r from-accent-teal to-blue-500 rounded-full border-4 border-gray-100 shadow-lg animate-pulse z-10"></div>
             <div className="ml-16 md:ml-0 md:w-1/2 md:pr-8 relative z-20">
               <div className="bg-gradient-to-br from-white to-gray-50 p-8 rounded-xl shadow-xl border-l-6 border-accent-teal hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
                 <div className="flex justify-between items-start mb-4">
@@ -97,7 +97,7 @@ export default function ExperienceSection() {
 
           {/* DataTech Labs Experience */}
           <div className="relative flex items-center justify-end mb-12">
-            <div className="absolute left-6 md:left-1/2 transform md:-translate-x-1/2 w-5 h-5 bg-gradient-to-r from-accent-orange to-red-500 rounded-full border-4 border-white shadow-lg z-10"></div>
+            <div className="absolute left-6 md:left-1/2 transform md:-translate-x-1/2 w-5 h-5 bg-gradient-to-r from-accent-orange to-red-500 rounded-full border-4 border-gray-100 shadow-lg z-10"></div>
             <div className="ml-16 md:ml-0 md:w-1/2 md:pl-8 relative z-20">
               <div className="bg-gradient-to-br from-white to-orange-50 p-6 rounded-xl shadow-lg border-l-4 border-accent-orange hover:shadow-xl transition-all duration-300">
                 <div className="flex justify-between items-start mb-3">

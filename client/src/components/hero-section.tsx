@@ -36,8 +36,8 @@ export default function HeroSection() {
             </h2>
             <p className="text-lg lg:text-xl text-white/80 mb-6 leading-relaxed">
               Passionate about building intelligent systems and innovative solutions. Currently architecting 
-              cutting-edge AI applications at Tech Mahindra with expertise in LangGraph, Databricks, and 
-              enterprise-scale machine learning.
+              cutting-edge GenAI applications at Tech Mahindra with expertise in LangGraph, Databricks, and 
+              enterprise-scale generative AI systems.
             </p>
             
             {/* Quick highlights for recruiters */}
@@ -48,7 +48,7 @@ export default function HeroSection() {
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 text-center">
                 <div className="text-lg font-bold text-accent-teal">Spring Boot</div>
-                <div className="text-xs text-white/70">Backend</div>
+                <div className="text-xs text-white/70">& Django</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 text-center">
                 <div className="text-lg font-bold text-accent-teal">Azure AI</div>

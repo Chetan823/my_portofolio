@@ -9,14 +9,14 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              I'm a dedicated AI/ML Engineer with a passion for creating intelligent systems that solve real-world problems. 
+              I'm a dedicated GenAI Engineer with a passion for creating intelligent systems that solve real-world problems. 
               With a strong foundation in computer science and a CGPA of 9.06 from D.Y Patil College of Engineering, 
-              I specialize in building scalable AI applications and full-stack solutions.
+              I specialize in building scalable GenAI applications and full-stack solutions.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Currently working as an Associate Software Engineer at Tech Mahindra, I architect and deploy 
               sophisticated RAG systems, multi-agent workflows, and enterprise-scale applications. My expertise 
-              spans from backend development with Spring Boot to advanced AI frameworks like LangGraph and LangChain.
+              spans from backend development with Spring Boot and Django to advanced GenAI frameworks like LangGraph and LangChain.
             </p>
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center p-4 bg-gray-50 rounded-lg">

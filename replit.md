@@ -96,7 +96,14 @@ This is a professional portfolio website for Chetan Chaudhari, an AI/ML Engineer
 
 Preferred communication style: Simple, everyday language.
 
+## Recent Changes
+
+- June 29, 2025: Fixed timeline visibility issues in experience section by changing border colors from white to gray-100
+- June 29, 2025: Added Django alongside Spring Boot in hero section backend skills highlight
+- June 29, 2025: Reduced padding in education section to minimize gap below certifications
+- June 29, 2025: Updated all AI/ML references to GenAI throughout the portfolio for consistent branding
+- June 29, 2025: Enhanced recruiter-focused elements with interactive skills section and call-to-action section
+
 ## Changelog
 
-Changelog:
-- June 29, 2025. Initial setup
+- June 29, 2025: Initial portfolio setup with complete React/TypeScript architecture

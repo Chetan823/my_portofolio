@@ -6,7 +6,7 @@ export default function ContactSection() {
           <h2 className="text-4xl font-bold mb-4">Get In Touch</h2>
           <div className="w-20 h-1 bg-accent-teal mx-auto mb-6"></div>
           <p className="text-xl text-white/80">
-            Ready to collaborate on your next AI/ML project? Let's connect and build something amazing together.
+            Ready to collaborate on your next GenAI project? Let's connect and build something amazing together.
           </p>
         </div>
         

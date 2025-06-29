@@ -92,7 +92,7 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-white/60 mb-2">
-              © 2024 Chetan Chaudhari. Built with passion for AI/ML and innovation.
+              © 2024 Chetan Chaudhari. Built with passion for GenAI and innovation.
             </p>
             <div className="flex justify-center space-x-4 text-white/40 text-sm">
               <span>🎯 Open to Work</span>
