@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,6 +19,7 @@ export default function Navigation() {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
+    setIsMobileMenuOpen(false);
   };
 
   return (
@@ -76,10 +78,64 @@ export default function Navigation() {
               </Button>
             </div>
           </div>
-          <button className="md:hidden text-navy-light">
-            <i className="fas fa-bars text-xl"></i>
+          <button 
+            className="md:hidden text-navy-light hover:text-accent-teal transition-colors"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            <i className={`fas ${isMobileMenuOpen ? 'fa-times' : 'fa-bars'} text-xl`}></i>
           </button>
         </div>
+        
+        {/* Mobile Menu */}
+        {isMobileMenuOpen && (
+          <div className="md:hidden bg-white border-t border-gray-200 shadow-lg">
+            <div className="px-4 py-4 space-y-2">
+              <Button
+                variant="ghost"
+                className="w-full text-left justify-start text-navy-light hover:text-accent-teal font-medium py-3"
+                onClick={() => scrollToSection("home")}
+              >
+                Home
+              </Button>
+              <Button
+                variant="ghost"
+                className="w-full text-left justify-start text-navy-light hover:text-accent-teal font-medium py-3"
+                onClick={() => scrollToSection("about")}
+              >
+                About
+              </Button>
+              <Button
+                variant="ghost"
+                className="w-full text-left justify-start text-navy-light hover:text-accent-teal font-medium py-3 relative"
+                onClick={() => scrollToSection("experience")}
+              >
+                Experience
+                <span className="absolute top-2 right-4 w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
+              </Button>
+              <Button
+                variant="ghost"
+                className="w-full text-left justify-start text-navy-light hover:text-accent-teal font-medium py-3"
+                onClick={() => scrollToSection("projects")}
+              >
+                Projects
+              </Button>
+              <Button
+                variant="ghost"
+                className="w-full text-left justify-start text-navy-light hover:text-accent-teal font-medium py-3"
+                onClick={() => scrollToSection("skills")}
+              >
+                Skills
+              </Button>
+              <Button
+                variant="ghost"
+                className="w-full text-left justify-start text-navy-light hover:text-accent-teal font-medium py-3"
+                onClick={() => scrollToSection("contact")}
+              >
+                Contact
+              </Button>
+            </div>
+          </div>
+        )}
       </div>
     </nav>
   );

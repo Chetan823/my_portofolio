@@ -2,14 +2,14 @@ import { Button } from "@/components/ui/button";
 
 export default function ProjectsSection() {
   return (
-    <section id="projects" className="py-20 bg-white">
+    <section id="projects" className="py-12 sm:py-16 lg:py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-navy mb-4">Featured Projects</h2>
+        <div className="text-center mb-12 lg:mb-16">
+          <h2 className="text-3xl sm:text-4xl font-bold text-navy mb-4">Featured Projects</h2>
           <div className="w-20 h-1 bg-accent-teal mx-auto"></div>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {/* Indian Sign Language Recognition Project */}
           <div className="bg-gradient-to-br from-white to-teal-50 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer group">
             <div className="relative">

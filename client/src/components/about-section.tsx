@@ -1,12 +1,12 @@
 export default function AboutSection() {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-12 sm:py-16 lg:py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-navy mb-4">About Me</h2>
+        <div className="text-center mb-12 lg:mb-16">
+          <h2 className="text-3xl sm:text-4xl font-bold text-navy mb-4">About Me</h2>
           <div className="w-20 h-1 bg-accent-teal mx-auto"></div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               I'm a dedicated GenAI Engineer with a passion for creating intelligent systems that solve real-world problems. 
@@ -18,14 +18,14 @@ export default function AboutSection() {
               sophisticated RAG systems, multi-agent workflows, and enterprise-scale applications. My expertise 
               spans from backend development with Spring Boot and Django to advanced GenAI frameworks like LangGraph and LangChain.
             </p>
-            <div className="grid grid-cols-2 gap-6">
-              <div className="text-center p-4 bg-gray-50 rounded-lg">
-                <div className="text-2xl font-bold text-accent-teal">1+</div>
-                <div className="text-gray-600">Years Experience</div>
+            <div className="grid grid-cols-2 gap-4 sm:gap-6">
+              <div className="text-center p-3 sm:p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+                <div className="text-xl sm:text-2xl font-bold text-accent-teal">1+</div>
+                <div className="text-sm sm:text-base text-gray-600">Years Experience</div>
               </div>
-              <div className="text-center p-4 bg-gray-50 rounded-lg">
-                <div className="text-2xl font-bold text-accent-teal">5+</div>
-                <div className="text-gray-600">Major Projects</div>
+              <div className="text-center p-3 sm:p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+                <div className="text-xl sm:text-2xl font-bold text-accent-teal">5+</div>
+                <div className="text-sm sm:text-base text-gray-600">Major Projects</div>
               </div>
             </div>
             

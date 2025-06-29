@@ -1,16 +1,16 @@
 export default function ContactSection() {
   return (
-    <section id="contact" className="py-20 bg-navy text-white">
+    <section id="contact" className="py-12 sm:py-16 lg:py-20 bg-navy text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Get In Touch</h2>
+        <div className="text-center mb-12 lg:mb-16">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Get In Touch</h2>
           <div className="w-20 h-1 bg-accent-teal mx-auto mb-6"></div>
-          <p className="text-xl text-white/80">
+          <p className="text-lg sm:text-xl text-white/80 max-w-3xl mx-auto px-4">
             Ready to collaborate on your next GenAI project? Let's connect and build something amazing together.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-12">
           <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl">
             <i className="fas fa-envelope text-3xl text-accent-teal mb-4"></i>
             <h3 className="text-lg font-semibold mb-2">Email</h3>

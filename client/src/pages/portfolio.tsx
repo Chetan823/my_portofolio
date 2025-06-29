@@ -19,31 +19,31 @@ export default function Portfolio() {
       <EducationSection />
       
       {/* Recruiter CTA Section */}
-      <section className="py-16 bg-navy text-white">
+      <section className="py-16 bg-gradient-to-br from-gray-50 to-gray-100 text-gray-800">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="mb-8">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">Ready to Build Something Amazing Together?</h2>
-            <p className="text-xl text-white/90 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               I'm actively seeking new opportunities to apply my GenAI and backend development expertise. 
               Let's discuss how I can contribute to your team's success.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-              <i className="fas fa-rocket text-3xl text-white mb-3"></i>
-              <h3 className="text-lg font-semibold mb-2">Quick Learner</h3>
-              <p className="text-white/80 text-sm">Rapidly adapts to new technologies and frameworks</p>
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <i className="fas fa-rocket text-3xl text-accent-teal mb-3"></i>
+              <h3 className="text-lg font-semibold mb-2 text-gray-800">Quick Learner</h3>
+              <p className="text-gray-600 text-sm">Rapidly adapts to new technologies and frameworks</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-              <i className="fas fa-users text-3xl text-white mb-3"></i>
-              <h3 className="text-lg font-semibold mb-2">Team Player</h3>
-              <p className="text-white/80 text-sm">Proven track record of collaborative success</p>
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <i className="fas fa-users text-3xl text-accent-teal mb-3"></i>
+              <h3 className="text-lg font-semibold mb-2 text-gray-800">Team Player</h3>
+              <p className="text-gray-600 text-sm">Proven track record of collaborative success</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-              <i className="fas fa-trophy text-3xl text-white mb-3"></i>
-              <h3 className="text-lg font-semibold mb-2">Results-Driven</h3>
-              <p className="text-white/80 text-sm">Delivered measurable improvements in enterprise projects</p>
+            <div className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <i className="fas fa-trophy text-3xl text-accent-teal mb-3"></i>
+              <h3 className="text-lg font-semibold mb-2 text-gray-800">Results-Driven</h3>
+              <p className="text-gray-600 text-sm">Delivered measurable improvements in enterprise projects</p>
             </div>
           </div>
           
@@ -55,7 +55,7 @@ export default function Portfolio() {
                 link.download = 'Chetan_Chaudhari_Resume.pdf';
                 link.click();
               }}
-              className="bg-white text-accent-teal px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-200 transform hover:scale-105"
+              className="bg-accent-teal text-white px-8 py-3 rounded-lg font-semibold hover:bg-accent-teal/90 transition-all duration-200 transform hover:scale-105 shadow-lg"
             >
               <i className="fas fa-download mr-2"></i>Download Resume
             </button>

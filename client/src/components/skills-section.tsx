@@ -1,16 +1,16 @@
 export default function SkillsSection() {
   return (
-    <section id="skills" className="py-20 bg-gray-50">
+    <section id="skills" className="py-12 sm:py-16 lg:py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-navy mb-4">Technical Skills</h2>
+        <div className="text-center mb-12 lg:mb-16">
+          <h2 className="text-3xl sm:text-4xl font-bold text-navy mb-4">Technical Skills</h2>
           <div className="w-20 h-1 bg-accent-teal mx-auto mb-4"></div>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
             Proficient in cutting-edge technologies with hands-on experience in enterprise-level projects
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {/* Programming Languages */}
           <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group">
             <div className="flex items-center mb-4">
