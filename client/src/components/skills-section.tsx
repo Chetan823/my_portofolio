@@ -34,46 +34,88 @@ export default function SkillsSection() {
           </div>
 
           {/* Frameworks */}
-          <div className="bg-white p-6 rounded-xl shadow-md">
+          <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group">
             <div className="flex items-center mb-4">
-              <i className="fas fa-layer-group text-2xl text-accent-teal mr-3"></i>
-              <h3 className="text-lg font-semibold text-navy">Frameworks</h3>
+              <i className="fas fa-layer-group text-2xl text-accent-teal mr-3 group-hover:scale-110 transition-transform"></i>
+              <h3 className="text-lg font-semibold text-navy group-hover:text-accent-teal transition-colors">Frameworks</h3>
             </div>
             <div className="space-y-2">
-              <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Spring Boot</span>
-              <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm ml-2">Django</span>
-              <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">LangChain</span>
-              <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm ml-2">LangGraph</span>
-              <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">TensorFlow</span>
+              <div className="skill-item">
+                <span className="inline-block bg-gradient-to-r from-green-100 to-green-200 text-green-800 px-3 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform cursor-pointer">Spring Boot</span>
+                <div className="text-xs text-gray-500 mt-1">Expert</div>
+              </div>
+              <div className="skill-item ml-2">
+                <span className="inline-block bg-gradient-to-r from-green-100 to-green-200 text-green-800 px-3 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform cursor-pointer">Django</span>
+                <div className="text-xs text-gray-500 mt-1">Proficient</div>
+              </div>
+              <div className="skill-item">
+                <span className="inline-block bg-gradient-to-r from-purple-100 to-purple-200 text-purple-800 px-3 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform cursor-pointer">LangChain</span>
+                <div className="text-xs text-gray-500 mt-1">Advanced</div>
+              </div>
+              <div className="skill-item ml-2">
+                <span className="inline-block bg-gradient-to-r from-purple-100 to-purple-200 text-purple-800 px-3 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform cursor-pointer">LangGraph</span>
+                <div className="text-xs text-gray-500 mt-1">Advanced</div>
+              </div>
+              <div className="skill-item">
+                <span className="inline-block bg-gradient-to-r from-red-100 to-red-200 text-red-800 px-3 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform cursor-pointer">TensorFlow</span>
+                <div className="text-xs text-gray-500 mt-1">Proficient</div>
+              </div>
             </div>
           </div>
 
           {/* Tools */}
-          <div className="bg-white p-6 rounded-xl shadow-md">
+          <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group">
             <div className="flex items-center mb-4">
-              <i className="fas fa-tools text-2xl text-accent-teal mr-3"></i>
-              <h3 className="text-lg font-semibold text-navy">Tools</h3>
+              <i className="fas fa-tools text-2xl text-accent-teal mr-3 group-hover:scale-110 transition-transform"></i>
+              <h3 className="text-lg font-semibold text-navy group-hover:text-accent-teal transition-colors">Tools</h3>
             </div>
             <div className="space-y-2">
-              <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Git</span>
-              <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm ml-2">Docker</span>
-              <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Jenkins</span>
-              <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm ml-2">Postman</span>
-              <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Jira</span>
+              <div className="skill-item">
+                <span className="inline-block bg-gradient-to-r from-gray-100 to-gray-200 text-gray-800 px-3 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform cursor-pointer">Git</span>
+                <div className="text-xs text-gray-500 mt-1">Expert</div>
+              </div>
+              <div className="skill-item ml-2">
+                <span className="inline-block bg-gradient-to-r from-blue-100 to-blue-200 text-blue-800 px-3 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform cursor-pointer">Docker</span>
+                <div className="text-xs text-gray-500 mt-1">Proficient</div>
+              </div>
+              <div className="skill-item">
+                <span className="inline-block bg-gradient-to-r from-yellow-100 to-yellow-200 text-yellow-800 px-3 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform cursor-pointer">Jenkins</span>
+                <div className="text-xs text-gray-500 mt-1">Intermediate</div>
+              </div>
+              <div className="skill-item ml-2">
+                <span className="inline-block bg-gradient-to-r from-orange-100 to-orange-200 text-orange-800 px-3 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform cursor-pointer">Postman</span>
+                <div className="text-xs text-gray-500 mt-1">Advanced</div>
+              </div>
+              <div className="skill-item">
+                <span className="inline-block bg-gradient-to-r from-indigo-100 to-indigo-200 text-indigo-800 px-3 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform cursor-pointer">Jira</span>
+                <div className="text-xs text-gray-500 mt-1">Proficient</div>
+              </div>
             </div>
           </div>
 
           {/* Cloud & Data */}
-          <div className="bg-white p-6 rounded-xl shadow-md">
+          <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group">
             <div className="flex items-center mb-4">
-              <i className="fas fa-cloud text-2xl text-accent-teal mr-3"></i>
-              <h3 className="text-lg font-semibold text-navy">Cloud & Data</h3>
+              <i className="fas fa-cloud text-2xl text-accent-teal mr-3 group-hover:scale-110 transition-transform"></i>
+              <h3 className="text-lg font-semibold text-navy group-hover:text-accent-teal transition-colors">Cloud & Data</h3>
             </div>
             <div className="space-y-2">
-              <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Azure Databricks</span>
-              <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm ml-2">Azure AI</span>
-              <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
-              <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm ml-2">MySQL</span>
+              <div className="skill-item">
+                <span className="inline-block bg-gradient-to-r from-blue-100 to-blue-200 text-blue-800 px-3 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform cursor-pointer">Azure Databricks</span>
+                <div className="text-xs text-gray-500 mt-1">Advanced</div>
+              </div>
+              <div className="skill-item ml-2">
+                <span className="inline-block bg-gradient-to-r from-blue-100 to-blue-200 text-blue-800 px-3 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform cursor-pointer">Azure AI</span>
+                <div className="text-xs text-gray-500 mt-1">Expert</div>
+              </div>
+              <div className="skill-item">
+                <span className="inline-block bg-gradient-to-r from-green-100 to-green-200 text-green-800 px-3 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform cursor-pointer">PostgreSQL</span>
+                <div className="text-xs text-gray-500 mt-1">Proficient</div>
+              </div>
+              <div className="skill-item ml-2">
+                <span className="inline-block bg-gradient-to-r from-orange-100 to-orange-200 text-orange-800 px-3 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform cursor-pointer">MySQL</span>
+                <div className="text-xs text-gray-500 mt-1">Proficient</div>
+              </div>
             </div>
           </div>
         </div>

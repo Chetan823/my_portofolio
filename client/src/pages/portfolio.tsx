@@ -19,7 +19,7 @@ export default function Portfolio() {
       <EducationSection />
       
       {/* Recruiter CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-accent-teal to-blue-600 text-white">
+      <section className="py-16 bg-navy text-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="mb-8">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">Ready to Build Something Amazing Together?</h2>
