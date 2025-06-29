@@ -29,6 +29,17 @@ export default function EducationSection() {
                 </div>
               </div>
             </div>
+            <div className="bg-gray-50 p-6 rounded-xl shadow-md mt-4">
+              <div className="flex items-start space-x-4">
+                <i className="fas fa-graduation-cap text-3xl text-blue-600 mt-1"></i>
+                <div>
+                  <h3 className="text-xl font-bold text-navy mb-2">10th CBSE</h3>
+                  <p className="text-blue-600 font-semibold mb-2">CGPA: 10.0</p>
+                  <p className="text-gray-600 mb-1">Smita Patil Public School</p>
+                  <p className="text-gray-500">Shirpur • 2007 - 2017</p>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Certifications */}

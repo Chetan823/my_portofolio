@@ -32,7 +32,7 @@ export default function HeroSection() {
               Hi, I'm <span className="text-accent-teal">Chetan</span>
             </h1>
             <h2 className="text-2xl lg:text-3xl font-medium mb-6 text-white/90">
-              AI/ML Engineer & Full-Stack Developer
+              GenAI Engineer & Backend Developer
             </h2>
             <p className="text-lg lg:text-xl text-white/80 mb-8 leading-relaxed">
               Passionate about building intelligent systems and innovative solutions. Currently architecting 
